@@ -1,13 +1,3 @@
-# contenedor-id
-Clase en PHP para hacer inyección de dependencias en PHP usando Reflection
-
-## composer
-```shell
-composer require osvaldogdelrio/contenedor-id
-```
-
-## Ejemplo de uso
-```php
 <?php
 declare(strict_types=1);
 require_once __DIR__ . '/vendor/autoload.php';
@@ -24,4 +14,3 @@ El Contenedor automaticamente creará el objeto PrimerClase al que llama la Segu
 Las rutas no las adivina, pero se pueden mapear dentro de la clase Contenedor o escribir el namespace completo en el constructor
 */
 $contenedor->obtener('src\PrimerClase');
-```
